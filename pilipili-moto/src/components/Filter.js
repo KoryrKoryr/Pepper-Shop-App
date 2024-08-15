@@ -6,7 +6,11 @@ function Filter({ setFilter }) {
   };
 
   return (
-    <select onChange={handleFilterChange}>
+    <select
+      id="heatLevelFilter"
+      name="heatLevelFilter"
+      onChange={handleFilterChange}
+    >
       <option value="">All Heat Levels</option>
       <option value="None">None</option>
       <option value="Mild">Mild</option>

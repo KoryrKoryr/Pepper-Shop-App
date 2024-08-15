@@ -8,6 +8,8 @@ function SearchBar({ setSearchTerm }) {
   return (
     <input
       type="text"
+      id="searchBar"
+      name="searchBar"
       placeholder="Search peppers..."
       onChange={handleSearch}
     />
