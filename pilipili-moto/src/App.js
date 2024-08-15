@@ -6,6 +6,7 @@ import PepperDetailsPage from "./pages/PepperDetailsPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ThemeToggle from "./components/ThemeToggle";
+import "./App.css";
 
 function App() {
   return (
