@@ -16,7 +16,27 @@ function PepperForm({ onAddPepper }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onAddPepper(formData);
+
+    fetch("http://localhost:5000/peppers", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((response) => response.json())
+      .then((newPepper) => {
+        onAddPepper(newPepper);
+        setFormData({
+          name: "",
+          type: "",
+          heatLevel: "",
+          price: "",
+          description: "",
+          image: "",
+        });
+      })
+      .catch((error) => console.error("Error adding new pepper:", error));
   };
 
   return (
