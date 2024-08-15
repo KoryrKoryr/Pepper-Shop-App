@@ -24,7 +24,7 @@ function PepperDetailsPage() {
         <strong>Heat Level:</strong> {pepper.heatLevel}
       </p>
       <p>
-        <strong>Price:</strong> ${pepper.price}
+        <strong>Price:</strong> Ksh.{pepper.price}
       </p>
       <p>
         <strong>Description:</strong> {pepper.description}
