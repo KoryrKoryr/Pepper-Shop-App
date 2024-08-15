@@ -179,6 +179,15 @@
       "price": "",
       "description": "",
       "image": ""
+    },
+    {
+      "id": "96b7",
+      "name": "Ghost Pepper",
+      "type": "Chili",
+      "heatLevel": "Extremely Hot",
+      "price": "150",
+      "description": "The ghost pepper (aka the Bhut Jolokia) is one of the hottest peppers in the world. Ripe peppers measure 2.5 to 3.3 inches long and are usually red, though there are red, yellow, orange, white, purple or chocolate color varieties. They originate in Northern India and the peppers have been around for generations, though only cultivated in the western world since the turn of the century.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2018/10/Ghost-Peppers1.jpg"
     }
   ],
   "shopInfo": {
