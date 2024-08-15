@@ -6,14 +6,9 @@ function Header() {
     <header>
       <h1>Pilipili Moto</h1>
       <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-        </ul>
+        <Link to="/">Home</Link>
+
+        <Link to="/about">About</Link>
       </nav>
     </header>
   );
