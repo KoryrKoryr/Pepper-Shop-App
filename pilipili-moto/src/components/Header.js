@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header>
+      <h1>Pilipili Moto</h1>
       <nav>
         <ul>
           <li>
