@@ -6,7 +6,8 @@ function About() {
   useEffect(() => {
     fetch("http://localhost:5000/shopInfo")
       .then((response) => response.json())
-      .then((data) => setShopInfo(data));
+      .then((data) => setShopInfo(data))
+      .catch((error) => console.error("Error fetching shop info:", error));
   }, []);
 
   if (!shopInfo) return <div>Loading...</div>;
@@ -14,8 +15,12 @@ function About() {
   return (
     <div>
       <h2>About {shopInfo.name}</h2>
-      <p>Opening Time: {shopInfo.openingTime}</p>
-      <p>Closing Time: {shopInfo.closingTime}</p>
+      <p>
+        <strong>Opening Time:</strong> {shopInfo.openingTime}
+      </p>
+      <p>
+        <strong>Closing Time:</strong> {shopInfo.closingTime}
+      </p>
     </div>
   );
 }
