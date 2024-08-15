@@ -11,7 +11,8 @@ function PepperList() {
   useEffect(() => {
     fetch("http://localhost:5000/peppers")
       .then((response) => response.json())
-      .then((data) => setPeppers(data));
+      .then((data) => setPeppers(data))
+      .catch((error) => console.error("Error fetching peppers:", error));
   }, []);
 
   const filteredPeppers = peppers.filter(
