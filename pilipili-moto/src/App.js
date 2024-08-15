@@ -5,11 +5,13 @@ import About from "./pages/About";
 import PepperDetailsPage from "./pages/PepperDetailsPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <ThemeToggle />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
