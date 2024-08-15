@@ -1,0 +1,171 @@
+{
+  "peppers": [
+    {
+      "id": 1,
+      "name": "Pili pili",
+      "type": "Chili",
+      "heatLevel": "Very Hot",
+      "price": 100,
+      "description": "A small, vibrantly colored hot pepper.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2013/09/Birds-Eye-Peppers.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jalapeño",
+      "type": "Chili",
+      "heatLevel": "Medium",
+      "price": 60,
+      "description": "A medium-sized chili pepper with a mild heat.",
+      "image": "https://images.unsplash.com/photo-1583027475794-4c02423a979c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 3,
+      "name": "Serrano",
+      "type": "Chili",
+      "heatLevel": "Hot",
+      "price": 75,
+      "description": "A small, green chili pepper with a sharp bite.",
+      "image": "https://images.unsplash.com/photo-1595303489760-3976e8165b6d?q=80&w=1808&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 4,
+      "name": "Habanero",
+      "type": "Chili",
+      "heatLevel": "Very Hot",
+      "price": 120,
+      "description": "A fiery hot pepper with a fruity flavor.",
+      "image": "https://images.unsplash.com/photo-1597341482124-e7916b8c872d?q=80&w=1951&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 5,
+      "name": "Bell Pepper",
+      "type": "Sweet",
+      "heatLevel": "None",
+      "price": 40,
+      "description": "A large, sweet pepper available in various colors.",
+      "image": "https://images.unsplash.com/photo-1669863347362-1630fe821708?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 6,
+      "name": "Poblano",
+      "type": "Chili",
+      "heatLevel": "Mild",
+      "price": 80,
+      "description": "A mild chili pepper, often used in Mexican cuisine.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2013/09/Poblano-Peppers2.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Anaheim",
+      "type": "Chili",
+      "heatLevel": "Mild",
+      "price": 70,
+      "description": "A mild, slightly sweet pepper used in various dishes.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2019/05/Anaheim-Peppers-768x1152.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Cayenne",
+      "type": "Chili",
+      "heatLevel": "Hot",
+      "price": 90,
+      "description": "A long, red pepper known for its intense heat.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2013/09/Cayenne-Peppers-720x960.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Cherry Pepper",
+      "type": "Chili",
+      "heatLevel": "Medium",
+      "price": 85,
+      "description": "A small, round pepper with a tangy flavor.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2021/07/Cherry-Peppers1-640x853.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Shishito",
+      "type": "Sweet",
+      "heatLevel": "Mild",
+      "price": 95,
+      "description": "A small, wrinkled pepper that is sweet with occasional heat.",
+      "image": "https://images.unsplash.com/photo-1626235431366-01a519fd3e14?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 11,
+      "name": "Padron",
+      "type": "Sweet",
+      "heatLevel": "Mild to Hot",
+      "price": 100,
+      "description": "A Spanish pepper known for its unpredictable heat.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2019/04/Pimiento-de-Padron-Peppers-720x960.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Jaloro",
+      "type": "Chili",
+      "heatLevel": "Medium",
+      "price": 85,
+      "description": "A yellow variant of the jalapeño with a mild, fruity flavor.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2018/03/7dff099a65b026895942a872c251a542-720x960.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Banana Pepper",
+      "type": "Sweet",
+      "heatLevel": "Mild",
+      "price": 55,
+      "description": "A tangy, yellow pepper that’s great for pickling.",
+      "image": "https://images.unsplash.com/photo-1581776170812-f3a319d3a420?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 14,
+      "name": "Fresno Pepper",
+      "type": "Chili",
+      "heatLevel": "Medium",
+      "price": 75,
+      "description": "A red pepper similar to the jalapeño but with a slightly different flavor.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2021/09/Fresno-Chili-Peppers1-640x853.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Thai Bird Chili",
+      "type": "Chili",
+      "heatLevel": "Very Hot",
+      "price": 110,
+      "description": "A small, fiery pepper commonly used in Thai cuisine.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2019/04/Thai-Peppers-720x960.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Scotch Bonnet",
+      "type": "Chili",
+      "heatLevel": "Very Hot",
+      "price": 130,
+      "description": "A pepper with a fruity, sweet flavor and intense heat, often used in Caribbean dishes.",
+      "image": "https://www.artcaffemarket.co.ke/wp-content/uploads/2021/07/2337954045.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Hungarian Wax Pepper",
+      "type": "Chili",
+      "heatLevel": "Hot",
+      "price": 85,
+      "description": "A yellow pepper with a waxy skin and a hot, tangy flavor.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2019/04/Hungarian-Wax-Chili-Peppers-HERO-768x1152.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Caribbean Red Habanero",
+      "type": "Chili",
+      "heatLevel": "Extremely Hot",
+      "price": 140,
+      "description": "An extremely hot pepper with a rich, fruity flavor.",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2013/10/Carribean-Red-Peppers-720x960.jpg"
+    }
+  ],
+  "shopInfo": {
+    "name": "Pilipili Moto",
+    "openingTime": "08:00 AM",
+    "closingTime": "05:30 PM"
+  }
+}
