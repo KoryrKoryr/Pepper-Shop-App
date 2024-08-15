@@ -17,10 +17,11 @@ function Home() {
   };
 
   return (
-    <div>
-      <h2>Welcome to Pilipili Moto</h2>
-      <PepperForm onAddPepper={handleAddPepper} />
+    <div className="homeDiv">
+      <h2>Welcome to Pilipili Moto!</h2>
+      <h3>Available Peppers:</h3>
       <PepperList peppers={peppers} />
+      <PepperForm onAddPepper={handleAddPepper} />
     </div>
   );
 }
