@@ -10,7 +10,7 @@ function ThemeToggle() {
   };
 
   return (
-    <div style={{ padding: "10px", textAlign: "center" }}>
+    <div className="theme-toggle">
       <button onClick={toggleTheme}>
         Switch to {isDarkMode ? "Light" : "Dark"} Mode
       </button>

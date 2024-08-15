@@ -109,3 +109,12 @@ button:hover {
   list-style: none;
   display: flex;
 }
+
+.theme-toggle {
+  padding: 10px;
+  text-align: right;
+}
+
+/* .theme-toggle button {
+  float: right;
+} */
