@@ -5,8 +5,8 @@ function ThemeToggle() {
 
   const toggleTheme = () => {
     setIsDarkMode((prevMode) => !prevMode);
-    document.body.style.backgroundColor = isDarkMode ? "#fff" : "#333";
-    document.body.style.color = isDarkMode ? "#000" : "#fff";
+    document.body.style.backgroundColor = isDarkMode ? "#fff" : "#1a1a1a";
+    document.body.style.color = isDarkMode ? "#000" : "#e0e0e0";
   };
 
   return (
