@@ -93,3 +93,19 @@ button {
 button:hover {
   background-color: #ff4500;
 }
+
+.logo {
+  width: 180px;
+  height: auto;
+  float: left;
+}
+
+.navbar {
+  margin: 12px;
+  padding: 14px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
