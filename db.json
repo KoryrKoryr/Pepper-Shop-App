@@ -1,7 +1,7 @@
 {
   "peppers": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Pili pili",
       "type": "Chili",
       "heatLevel": "Very Hot",
@@ -10,7 +10,7 @@
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2013/09/Birds-Eye-Peppers.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Jalapeño",
       "type": "Chili",
       "heatLevel": "Medium",
@@ -19,7 +19,7 @@
       "image": "https://images.unsplash.com/photo-1583027475794-4c02423a979c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Serrano",
       "type": "Chili",
       "heatLevel": "Hot",
@@ -28,7 +28,7 @@
       "image": "https://images.unsplash.com/photo-1595303489760-3976e8165b6d?q=80&w=1808&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Habanero",
       "type": "Chili",
       "heatLevel": "Very Hot",
@@ -37,7 +37,7 @@
       "image": "https://images.unsplash.com/photo-1597341482124-e7916b8c872d?q=80&w=1951&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Bell Pepper",
       "type": "Sweet",
       "heatLevel": "None",
@@ -46,7 +46,7 @@
       "image": "https://images.unsplash.com/photo-1669863347362-1630fe821708?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Poblano",
       "type": "Chili",
       "heatLevel": "Mild",
@@ -55,7 +55,7 @@
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2013/09/Poblano-Peppers2.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Anaheim",
       "type": "Chili",
       "heatLevel": "Mild",
@@ -64,7 +64,7 @@
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2019/05/Anaheim-Peppers-768x1152.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Cayenne",
       "type": "Chili",
       "heatLevel": "Hot",
@@ -73,7 +73,7 @@
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2013/09/Cayenne-Peppers-720x960.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Cherry Pepper",
       "type": "Chili",
       "heatLevel": "Medium",
@@ -82,7 +82,7 @@
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2021/07/Cherry-Peppers1-640x853.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Shishito",
       "type": "Sweet",
       "heatLevel": "Mild",
@@ -91,7 +91,7 @@
       "image": "https://images.unsplash.com/photo-1626235431366-01a519fd3e14?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Padron",
       "type": "Sweet",
       "heatLevel": "Mild to Hot",
@@ -100,7 +100,7 @@
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2019/04/Pimiento-de-Padron-Peppers-720x960.jpg"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Jaloro",
       "type": "Chili",
       "heatLevel": "Medium",
@@ -109,7 +109,7 @@
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2018/03/7dff099a65b026895942a872c251a542-720x960.jpg"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Banana Pepper",
       "type": "Sweet",
       "heatLevel": "Mild",
@@ -118,7 +118,7 @@
       "image": "https://images.unsplash.com/photo-1581776170812-f3a319d3a420?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Fresno Pepper",
       "type": "Chili",
       "heatLevel": "Medium",
@@ -127,7 +127,7 @@
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2021/09/Fresno-Chili-Peppers1-640x853.jpg"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Thai Bird Chili",
       "type": "Chili",
       "heatLevel": "Very Hot",
@@ -136,7 +136,7 @@
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2019/04/Thai-Peppers-720x960.jpg"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Scotch Bonnet",
       "type": "Chili",
       "heatLevel": "Very Hot",
@@ -145,7 +145,7 @@
       "image": "https://www.artcaffemarket.co.ke/wp-content/uploads/2021/07/2337954045.jpg"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Hungarian Wax Pepper",
       "type": "Chili",
       "heatLevel": "Hot",
@@ -154,13 +154,22 @@
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2019/04/Hungarian-Wax-Chili-Peppers-HERO-768x1152.jpg"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Caribbean Red Habanero",
       "type": "Chili",
       "heatLevel": "Extremely Hot",
       "price": 140,
       "description": "An extremely hot pepper with a rich, fruity flavor.",
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2013/10/Carribean-Red-Peppers-720x960.jpg"
+    },
+    {
+      "id": "0d10",
+      "name": "Carolina Reaper",
+      "type": "Chili",
+      "heatLevel": "Extremely Hot",
+      "price": "150",
+      "description": "One of the hottest peppers in the world! The flavor is fruity and similar to a 7 Pot chili pepper. ",
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2019/04/Carolina-Reaper-Pepper.jpg"
     }
   ],
   "shopInfo": {

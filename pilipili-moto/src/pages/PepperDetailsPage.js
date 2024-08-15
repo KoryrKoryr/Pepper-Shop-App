@@ -15,7 +15,7 @@ function PepperDetailsPage() {
   if (!pepper) return <div>Loading...</div>;
 
   return (
-    <div>
+    <div style={{ padding: "20px", textAlign: "center" }}>
       <h2>{pepper.name}</h2>
       <p>
         <strong>Type:</strong> {pepper.type}
@@ -32,7 +32,7 @@ function PepperDetailsPage() {
       <img
         src={pepper.image}
         alt={pepper.name}
-        style={{ width: "200px", height: "200px" }}
+        style={{ width: "300px", height: "300px", borderRadius: "15px" }}
       />
     </div>
   );
