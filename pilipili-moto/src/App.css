@@ -114,3 +114,7 @@ button:hover {
   padding: 10px;
   text-align: right;
 }
+
+.about {
+  text-align: center;
+}
