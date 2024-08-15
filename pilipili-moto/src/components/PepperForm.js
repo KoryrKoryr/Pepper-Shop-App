@@ -17,6 +17,16 @@ function PepperForm({ onAddPepper }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (
+      !formData.name ||
+      !formData.type ||
+      !formData.heatLevel ||
+      !formData.price
+    ) {
+      alert("Please fill in all fields.");
+      return;
+    }
+
     fetch("http://localhost:5000/peppers", {
       method: "POST",
       headers: {
@@ -47,6 +57,7 @@ function PepperForm({ onAddPepper }) {
         value={formData.name}
         onChange={handleChange}
         placeholder="Pepper Name"
+        required
       />
       <input
         type="text"
@@ -54,6 +65,7 @@ function PepperForm({ onAddPepper }) {
         value={formData.type}
         onChange={handleChange}
         placeholder="Pepper Type"
+        required
       />
       <input
         type="text"
@@ -61,6 +73,7 @@ function PepperForm({ onAddPepper }) {
         value={formData.heatLevel}
         onChange={handleChange}
         placeholder="Heat Level"
+        required
       />
       <input
         type="number"
@@ -68,6 +81,7 @@ function PepperForm({ onAddPepper }) {
         value={formData.price}
         onChange={handleChange}
         placeholder="Price"
+        required
       />
       <input
         type="text"

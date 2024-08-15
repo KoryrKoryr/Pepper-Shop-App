@@ -170,6 +170,15 @@
       "price": "150",
       "description": "One of the hottest peppers in the world! The flavor is fruity and similar to a 7 Pot chili pepper. ",
       "image": "https://www.chilipeppermadness.com/wp-content/uploads/2019/04/Carolina-Reaper-Pepper.jpg"
+    },
+    {
+      "id": "6709",
+      "name": "",
+      "type": "",
+      "heatLevel": "",
+      "price": "",
+      "description": "",
+      "image": ""
     }
   ],
   "shopInfo": {
