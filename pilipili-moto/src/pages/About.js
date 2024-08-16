@@ -14,24 +14,29 @@ function About() {
 
   return (
     <div className="about">
-      <h2>About {shopInfo.name}:</h2>
-      <p>
-        Pilipili Moto is your one stop shop for the best chillies in Kenya! Our
-        goal is to provide the best products at the best prices.
-      </p>
-      <p>
-        We offer a variety of peppers with varying levels of heat to suite your
-        taste so come take a ride on the spicy side!!!
-      </p>
-      <p>
-        <strong>Location:</strong> {shopInfo.location}
-      </p>
-      <p>
-        <strong>Opening Time:</strong> {shopInfo.openingTime}
-      </p>
-      <p>
-        <strong>Closing Time:</strong> {shopInfo.closingTime}
-      </p>
+      <div>
+        <img className="AboutLogo" src="logo.png" alt="Pilipili Moto Logo" />
+      </div>
+      <div>
+        <h2>About {shopInfo.name}:</h2>
+        <p>
+          Pilipili Moto is your one stop shop for the best chillies in Kenya!
+          Our goal is to provide the best products at the best prices.
+        </p>
+        <p>
+          We offer a variety of peppers with varying levels of heat to suite
+          your taste so come take a ride on the spicy side!!!
+        </p>
+        <p>
+          <strong>Location:</strong> {shopInfo.location}
+        </p>
+        <p>
+          <strong>Opening Time:</strong> {shopInfo.openingTime}
+        </p>
+        <p>
+          <strong>Closing Time:</strong> {shopInfo.closingTime}
+        </p>
+      </div>
     </div>
   );
 }
