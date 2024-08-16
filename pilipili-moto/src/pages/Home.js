@@ -19,7 +19,7 @@ function Home() {
   return (
     <div className="homeDiv">
       <h2>Welcome to Pilipili Moto!</h2>
-      <h3>Available Peppers:</h3>
+      <h3>Available Peppers For Sale:</h3>
       <PepperList peppers={peppers} />
       <PepperForm onAddPepper={handleAddPepper} />
     </div>
