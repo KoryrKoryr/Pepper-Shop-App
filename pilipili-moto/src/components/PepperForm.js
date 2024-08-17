@@ -27,7 +27,7 @@ function PepperForm({ onAddPepper }) {
       return;
     }
 
-    fetch("http://localhost:5000/peppers", {
+    fetch("https://pilipili-moto-server.vercel.app/peppers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

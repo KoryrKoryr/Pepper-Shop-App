@@ -6,7 +6,7 @@ function Home() {
   const [peppers, setPeppers] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/peppers")
+    fetch("https://pilipili-moto-server.vercel.app/peppers")
       .then((response) => response.json())
       .then((data) => setPeppers(data))
       .catch((error) => console.error("Error fetching peppers:", error));

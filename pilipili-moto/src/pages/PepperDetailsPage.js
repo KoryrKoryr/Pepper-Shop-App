@@ -6,7 +6,7 @@ function PepperDetailsPage() {
   const [pepper, setPepper] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/peppers/${id}`)
+    fetch(`https://pilipili-moto-server.vercel.app/peppers/${id}`)
       .then((response) => response.json())
       .then((data) => setPepper(data))
       .catch((error) => console.error("Error fetching pepper details:", error));

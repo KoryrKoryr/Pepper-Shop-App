@@ -4,7 +4,7 @@ function About() {
   const [shopInfo, setShopInfo] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/shopInfo")
+    fetch("https://pilipili-moto-server.vercel.app/shopInfo")
       .then((response) => response.json())
       .then((data) => setShopInfo(data))
       .catch((error) => console.error("Error fetching shop info:", error));
